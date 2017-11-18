@@ -35,15 +35,15 @@ The 6-tuple can be interpreted as "a speaker 'S' uttered a sentence 'u' to a lis
 ### Timeline of Automatic Sarcasm Detection:
 Starting with an approach that used Speech based features to more complex techniques like Attentive recurrent neural network based modelling, automatic sarcasm detection has surely come a long way. 
 
-<div class="imgcap" style="display:table-cell; vertical-align:center; text-align:center">
-<img class="Centered" src="/images/trends_in_sarcasmdetec.JPG">
+<div class="imgcap">
+<img class="aligncenter" src="/images/trends_in_sarcasmdetec.JPG">
 	<div class="thecap"> Courtesy: <a href="https://arxiv.org/abs/1602.03426" target="_blank"> <i> Joshi et al.</i> </a> </div>
 </div>
 
 The first model developed for sarcasm detection was from [*Tepperman et al.*](http://ict.usc.edu/pubs/Yeah%20Right-%20Sarcasm%20Recognition%20for%20Spoken%20Dialogue%20Systems.pdf). This model used prosodic features from speech signals to determine if a person is sarcastic or not. Over the next few years, models started using different features from  natural language text to understand sarcasm. These features include lexical, semantic, syntactic and additional context based features. The syntactive features include discovering important patterns, representative of sarcasm. The datasets used for the task of sarcasm/irony detection can be broadly classified into 2 types: Short text and Long text. Typically short texts are made of simple one-liners like tweets, while longer texts include conversations, where we have an additional context. A brief overview of different datasets available for this task are summarised below:
 
 <div class="imgcap" style="display:table-cell; vertical-align:center; text-align:center">
-<img class="Centered" src="/images/datasets.JPG">
+<img class="aligncenter" src="/images/datasets.JPG">
 	<div class="thecap"> Courtesy: <a href="https://arxiv.org/abs/1602.03426" target="_blank"> <i> Joshi et al.</i> </a> </div>
 </div>
 
