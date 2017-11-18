@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title:  "Irony detection - Foundations and the state-of-the-art.."
+title:  "Irony detection - Foundations and the state-of-the-art"
 excerpt: "Let us take a look at the basic problem of automatic sarcasm detection and do a short literature survey. The goal is to provide an overall knowledge of the recent trends and the current state-of-the-art in the domain of Irony/Sarcasm detection"
 date:   2017-11-18 11:00:00
 mathjax: true
