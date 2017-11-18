@@ -36,15 +36,15 @@ The 6-tuple can be interpreted as "a speaker 'S' uttered a sentence 'u' to a lis
 Starting with an approach that used Speech based features to more complex techniques like Attentive recurrent neural network based modelling, automatic sarcasm detection has surely come a long way. 
 
 <div class="imgcap">
-<img src="/images/trends_in_sarcasmdetec.JPG" style="display:block; margin-left: auto; margin-right: auto;text-align:center;">
-	<div class="thecap"> Courtesy: <a href="https://arxiv.org/abs/1602.03426" target="_blank"> <i> Joshi et al.</i> </a> </div>
+<img src="/images/trends_in_sarcasmdetec.JPG" style="display:block; margin-left: auto; margin-right: auto;">
+	<div class="thecap" style="text-align:center;"> Courtesy: <a href="https://arxiv.org/abs/1602.03426" target="_blank"> <i> Joshi et al.</i> </a> </div>
 </div>
 
 The first model developed for sarcasm detection was from [*Tepperman et al.*](http://ict.usc.edu/pubs/Yeah%20Right-%20Sarcasm%20Recognition%20for%20Spoken%20Dialogue%20Systems.pdf). This model used prosodic features from speech signals to determine if a person is sarcastic or not. Over the next few years, models started using different features from  natural language text to understand sarcasm. These features include lexical, semantic, syntactic and additional context based features. The syntactive features include discovering important patterns, representative of sarcasm. The datasets used for the task of sarcasm/irony detection can be broadly classified into 2 types: Short text and Long text. Typically short texts are made of simple one-liners like tweets, while longer texts include conversations, where we have an additional context. A brief overview of different datasets available for this task are summarised below:
 
 <div class="imgcap">
-<img src="/images/datasets.JPG" style="display:block; margin-left: auto; margin-right: auto;text-align:center;">
-	<div class="thecap"> Courtesy: <a href="https://arxiv.org/abs/1602.03426" target="_blank"> <i> Joshi et al.</i> </a> </div>
+<img src="/images/datasets.JPG" style="display:block; margin-left: auto; margin-right: auto;">
+	<div class="thecap" style="text-align:center;"> Courtesy: <a href="https://arxiv.org/abs/1602.03426" target="_blank"> <i> Joshi et al.</i> </a> </div>
 </div>
 
 People have also come with various datasets created out of [distant supervision](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=8&cad=rja&uact=8&ved=0ahUKEwily4iThMnXAhVL9mMKHYEjB9cQFghbMAc&url=https%3A%2F%2Fhazyresearch.github.io%2Fsnorkel%2Fblog%2Fweak_supervision.html&usg=AOvVaw1J2xzepcnBZ7ZZvlqMhD_f) for this task. Some of the notable works are [*Davidov et al.*](http://people.seas.harvard.edu/~orentsur/papers/conll10.pdf) and [*Gonzalez-Ibanez et al.*](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0ahUKEwiexrj5g8nXAhUFy2MKHfVbBh4QFggoMAA&url=http%3A%2F%2Fciteseerx.ist.psu.edu%2Fviewdoc%2Fdownload%3Fdoi%3D10.1.1.207.5253%26rep%3Drep1%26type%3Dpdf&usg=AOvVaw3TiC7L_1qYmvOpAJXPT7oV)
