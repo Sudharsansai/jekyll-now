@@ -3,7 +3,7 @@ layout: post
 comments: true
 title:  "Irony detection - Foundations and the state-of-the-art"
 excerpt: "Let us take a look at the basic problem of automatic sarcasm detection and do a short literature survey. The goal is to provide an overall knowledge of the recent trends and the current state-of-the-art in the domain of Irony/Sarcasm detection"
-date:   2017-11-15 11:00:00
+date:   2017-11-18 11:00:00
 mathjax: true
 ---
 
@@ -36,14 +36,14 @@ The 6-tuple can be interpreted as "a speaker 'S' uttered a sentence 'u' to a lis
 Starting with an approach that used Speech based features to more complex techniques like Attentive recurrent neural network based modelling, automatic sarcasm detection has surely come a long way. 
 
 <div class="imgcap">
-<img src="/assets/rl/preview.jpeg">
+<img src="/images/trends_in_sarcasmdetec.JPG">
 	<div class="thecap"> Courtesy: <a href="https://arxiv.org/abs/1602.03426" target="_blank"> <i> Joshi et al.</i> </a> </div>
 </div>
 
 The first model developed for sarcasm detection was from [*Tepperman et al.*](http://ict.usc.edu/pubs/Yeah%20Right-%20Sarcasm%20Recognition%20for%20Spoken%20Dialogue%20Systems.pdf). This model used prosodic features from speech signals to determine if a person is sarcastic or not. Over the next few years, models started using different features from  natural language text to understand sarcasm. These features include lexical, semantic, syntactic and additional context based features. The syntactive features include discovering important patterns, representative of sarcasm. The datasets used for the task of sarcasm/irony detection can be broadly classified into 2 types: Short text and Long text. Typically short texts are made of simple one-liners like tweets, while longer texts include conversations, where we have an additional context. A brief overview of different datasets available for this task are summarised below:
 
 <div class="imgcap">
-<img src="/assets/rl/preview.jpeg">
+<img src="/images/datasets.JPG">
 	<div class="thecap"> Courtesy: <a href="https://arxiv.org/abs/1602.03426" target="_blank"> <i> Joshi et al.</i> </a> </div>
 </div>
 
